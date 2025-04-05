@@ -1,0 +1,232 @@
+body{
+    background-color: #fafff9;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+header nav .nav-list{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav .nav-list li{
+    margin: 0 15px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+header nav .nav-list li a{
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 5px;
+
+}   
+
+header nav .nav-list li a:hover{
+    color: hsl(99, 46%, 38%);
+}
+
+header .logo-container{
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+header .logo-container img{
+    width: 376px;
+    height: 106px;
+}
+
+header .cta-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 20%;
+}
+
+header .cta-container .cta-button{
+    background-color: hsl(99, 46%, 38%);
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    padding-inline: 30px;
+}
+
+header .cta-container .cta-button:hover{
+    background-color: #4a7e2d;
+}
+header .cta-container .cta-button:active{
+    background-color: #3c6f24;
+}
+
+
+.hero{
+    background-image: url('../img/box-sumate.jpg');
+    background-size: cover;
+    background-position-x: center;    
+    background-position-y: 932px;
+    height: 199px;
+
+}
+
+.hero .hero-screen{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .hero-screen h1{
+    color: #fff;
+    font-size: 48px;
+    text-align: center;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.form-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.form-section form{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+.form-section form .form-group{
+    margin-bottom: 15px;
+}
+.form-section form .form-group label{
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #0F172A;
+    margin-bottom: 5px;
+}
+
+.form-section form .form-group input{
+    padding: 8px 24px 8px 12px;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    border: 1px solid #CBD5E1;
+    background: #fff;
+}
+
+.form-section form .form-group input:focus{
+    border-color: hsl(0, 0%, 7%);
+    outline: none;
+}
+
+.form-section form .form-group input::placeholder{
+    color: #9CA3AF;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+}
+.form-section form .form-group select{
+    padding: 8px 24px 8px 12px;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    border: 1px solid #CBD5E1;
+    background: #fff;
+}
+.form-section form .form-group select:focus{
+    border-color: hsl(0, 0%, 7%);
+    outline: none;
+}
+.form-section form .form-group select::placeholder{
+    color: #9CA3AF;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+.form-section form button{
+    background-color: hsl(99, 46%, 38%);
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    padding-inline: 30px;
+    border: none;
+}
+.form-section form button:hover{
+    background-color: #4a7e2d;
+}
+
+.form-section .form-image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-section .form-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 40px;
+}
