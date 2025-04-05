@@ -4,4 +4,4 @@
 
 ### Ejercico Formato de texto
 
-Page: https://pablopelardas.github.io/ejercicios-dise-o-y-desarrollo-web-uade/uva-2-formato-texto/
+Page: [Ejercicio Formato de texto](https://pablopelardas.github.io/ejercicios-dise-o-y-desarrollo-web-uade/uva-2-formato-texto/)  
