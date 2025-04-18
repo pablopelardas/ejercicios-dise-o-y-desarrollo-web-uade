@@ -13,4 +13,8 @@ Page: [Ejercicio Gimnasio](https://pablopelardas.github.io/ejercicios-dise-o-y-d
 
 ### Ejercico Cantina Chichilo - Unidades de medida
 
-Page: [Ejercicio Cantina Chichilo](https://pablopelardas.github.io/ejercicios-dise-o-y-desarrollo-web-uade/uva-2-unidades-medida/)  
+Page: [Ejercicio Cantina Chichilo](https://pablopelardas.github.io/ejercicios-dise-o-y-desarrollo-web-uade/uva-2-unidades-medida/) 
+
+### Ejercico Galería Imágenes - Flex y Grid
+
+Page: [Ejercico Galería Imágenes](https://pablopelardas.github.io/ejercicios-dise-o-y-desarrollo-web-uade/uva-2-grid-flexbox/)  
