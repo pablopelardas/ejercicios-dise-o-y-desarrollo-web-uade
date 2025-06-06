@@ -1,14 +1,8 @@
-// Cree tres variables con datos personales al azar y cuando cargue la página web, muestre un mensaje de bienvenida para el usuario.  
-
-// Modifique el ejercicio anterior para que el usuario sea quien ingrese sus datos.  
-
-// Modifique el ejercicio anterior para mostrar un mensaje (luego del mensaje del ejercicio 1), que le diga al usuario cuántos días ha vivido desde que nació.  
-
 window.onload = function() {
     // Variables con datos personales
-    let nombre = "Juan";
-    let edad = 25;
-    let ciudad = "Madrid";
+    let nombre = randomName();
+    let edad = randomInt(18, 40);
+    let ciudad = randomCity();
 
     // Mensaje de bienvenida
     alert(`¡Bienvenido ${nombre} de ${ciudad}! Tienes ${edad} años.`);
@@ -23,4 +17,18 @@ window.onload = function() {
 
     // Mensaje final
     alert(`¡Bienvenido ${nombre} de ${ciudad}! Tienes ${edad} años y has vivido aproximadamente ${diasVividos} días.`);
+}
+
+function randomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+function randomName() {
+    const names = ["Pablo", "Ana", "Luis", "María", "Carlos"];
+    return names[Math.floor(Math.random() * names.length)];
+}
+
+function randomCity() {
+    const cities = ["Buenos Aires", "Madrid", "Barcelona", "Lima", "Santiago"];
+    return cities[Math.floor(Math.random() * cities.length)];
 }
