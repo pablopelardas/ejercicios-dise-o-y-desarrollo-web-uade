@@ -18,3 +18,10 @@ Page: [Ejercicio Cantina Chichilo](https://pablopelardas.github.io/ejercicios-di
 ### Ejercico Galería Imágenes - Flex y Grid
 
 Page: [Ejercico Galería Imágenes](https://pablopelardas.github.io/ejercicios-dise-o-y-desarrollo-web-uade/uva-2-grid-flexbox/)  
+
+
+## Uva 3
+
+### Ejercico Javascript
+
+Page: [Javascript](https://pablopelardas.github.io/ejercicios-dise-o-y-desarrollo-web-uade/uva-3-javascript/)  
